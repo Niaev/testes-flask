@@ -30,3 +30,5 @@ $ python -m flask run
 ### Testando
 
 Vá para o seu navegador e digite na barra de pesquisas ```127.0.0.1:5000/``` e aperte ```Enter```.
+
+## Faça bom uso :)
