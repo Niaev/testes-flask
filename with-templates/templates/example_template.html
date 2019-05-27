@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>with-templates</title>
+
+        <style>
+        
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <h1>Olá! Seja bem-vindo(a) ao template de exemplo</h1>
+        <h3>Neste momento o <b>Flask</b> está rodando um <b><i>template</i> HTML</b></h3>
+
+        <br>
+
+        <p>O <b>Flask</b> não só lê os documentos HTML como permite a utilização de linhas de código em Python dentro desses documentos</p>
+
+        {% if something %}
+            <p>Veja só, você digitou algo na URL, após o 'localhost:5000/':</p>
+            Você digitou: <b>{{ something }}</b>
+        {% endif %}
+
+    </body>
+</html>
