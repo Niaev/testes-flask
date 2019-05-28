@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # rota / (raíz)
-@app.route("/")
+@app.route('/')
 def index():
     # conteúdo HTML
     page_content = """
@@ -18,3 +18,6 @@ def index():
     """
 
     return page_content
+
+if __name__ == '__main__':
+    app.run()
